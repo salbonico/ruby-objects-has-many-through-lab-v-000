@@ -1,4 +1,4 @@
-class Donctor
+class Doctor
 @@all = []
 
 attr_accessor :name, :appointments
