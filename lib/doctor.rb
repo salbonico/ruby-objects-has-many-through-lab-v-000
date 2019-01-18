@@ -21,6 +21,12 @@ def appointments
   @appointments
 end
 
+def patients
+
+self.appointments.map do |appointment|
+appointment.patient
+end
+
 
 
 end
