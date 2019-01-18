@@ -15,7 +15,7 @@ end
 def new_song(name, genre)
   new_song = Song.new(name,self,genre)
   @songs << new_song
-  @genre.songs << new_song
+  
 end
 
 def songs
