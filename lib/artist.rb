@@ -15,6 +15,11 @@ end
 def new_song(name, genre)
   new_song = Song.new(name)
   @songs << new_song
+end
+
+def songs
+  @songs
+end
 
 
 end
