@@ -26,7 +26,7 @@ self.songs.map do |song|
 end
 end
 
-end
+
 
 
 
