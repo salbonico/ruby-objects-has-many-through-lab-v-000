@@ -8,7 +8,7 @@ def initialize(date, patient, doctor)
   @patient = patient
   @doctor = doctor
   @@all << self
-
-
+  @patient.appointments << self
+  @doctor.appointments << self
 
 end
