@@ -14,13 +14,19 @@ end
 
 def new_song(name, genre)
   new_song = Song.new(name,self,genre)
-
-
 end
 
 def songs
   @songs
 end
+
+def genres
+self.songs.map do |song|
+  song.genre
+end
+
+end
+
 
 
 end
