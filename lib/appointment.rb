@@ -12,6 +12,8 @@ def initialize(date, patient, doctor)
   @doctor.appointments << self
 end
 
-
+def self.all
+  @@all
+end
 
 end
