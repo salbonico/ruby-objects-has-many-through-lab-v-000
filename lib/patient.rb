@@ -8,3 +8,16 @@ def initialize(name)
   @appointments = []
   @@all << self
 end
+
+
+def self.all
+  @@all
+end
+
+
+
+
+
+
+
+end
